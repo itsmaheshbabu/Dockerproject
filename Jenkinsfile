@@ -22,7 +22,7 @@ pipeline{
                     sh 'docker login -u mahesh91docker -p ${docker_pwd}'
                 }
                 
-                sh 'docker push mahesh91docker/maven-project:2.0'
+                sh 'docker push mahesh91docker/java-project:1.0'
                 
             }
         }
